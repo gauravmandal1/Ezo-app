@@ -70,7 +70,7 @@ export default {
         log.value.push(`[${currentTimestamp()}] Not enough funds in the ledger.`);
       } else {
         ledger.value -= withdrawAmount.value;
-        log.value.push(`[${currentTimestamp()}] Withdraw: ${withdrawAmount.value}`);
+        log.value.push(`[${currentTimestamp()}] Withdraw successful of ${withdrawAmount.value}`);
       }
     };
     // this function will deposit money in the account

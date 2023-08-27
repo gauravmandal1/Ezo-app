@@ -1,0 +1,35 @@
+.atm-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section {
+  width: 30%;
+  padding: 20px;
+  background-color: #e5f6ffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.denomination-table {
+  display: flex;
+  flex-direction: column;
+}
+
+.denom-row {
+  margin-bottom: 8px;
+}
+
+.denom-label {
+  margin-right: 10px;
+}
+.button {
+  color: white;
+
+  background: #5e2ced;
+}
+.log-item {
+  border-radius: 4px;
+  background-color: #a9e2ff;
+  margin-bottom: 6px;
+}

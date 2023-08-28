@@ -81,7 +81,7 @@ export default {
         return;
       }
       ledger.value += totalAmount;
-      log.value.push(`[${currentTimestamp()}] Deposit successful of ${totalAmount}`);
+      log.value.push(`[${currentTimestamp()}] Deposit of 2000:${denomination.value[2000]},500:${denomination.value[500]},200:${denomination.value[200]},100:${denomination.value[100]} with total of : ${totalAmount} sucessfull`);
     };
 
     return {
